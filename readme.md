@@ -47,7 +47,7 @@ This is because scripting languages are required to be compiled, while programmi
 ## What are the base/in-built Python libraries?
 * Random
   * Allows you to generate pseudo-random numbers
-* os.path
+* os
   * Common pathname manipulations
 * csv
   * Allows you to read and write to CSV files.
