@@ -33,9 +33,15 @@ def main():
     operations_list = ["+", "-", "/", "*"]
     x = input("Would you like to +,-,/,or *? \n")
     if x in operations_list:  # Input validation so that a real operation can only be entered
-        a = int(input("Enter your first number: \n"))
-        b = int(input("Enter your second number: \n"))
-        calculator(a, b, x)
+        validator = True
+        while validator:
+            a = ""
+            b = ""
+            while not a.isdigit():
+                a = input("Enter your first number: \n")
+            while not b.isdigit():
+                b = input("Enter your second number: \n")
+            calculator(int(a), int(b), x)
     else:
         x = input("Would you like to +,-,/,or *")
 
