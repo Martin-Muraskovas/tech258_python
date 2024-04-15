@@ -60,23 +60,32 @@ print(requests_bbc.content)
 
 ## 10 Scripts a DevOps Engineer may create
 ### 1. Notification Scripts
-
+Develop scripts to send alerts and notifications via email, SMS, or messaging platforms based 
+on predefined triggers such as system failures, performance issues, or deployment status updates.
 ### 2. Security Automation Scripts
-
+Build scripts to automate security checks, vulnerability scanning,
+and compliance audits across the infrastructure and application stack.
 ### 3. Container Scripts
-
+Develop scripts to manage and orchestrate containers 
+using Docker or Kubernetes, including deployment, scaling, and monitoring.
 ### 4. Continuous Integration Scripts
-
+Create scripts to automate the CI process, including running tests,
+code quality checks, and triggering builds upon code changes.
 ### 5. Deployment Automation Scripts
-
-### 6. Security Scripts
-
+Automate the deployment process of applications by writing scripts that handle 
+building, testing, and deploying code to various environments.
+### 6. Configuration Management Scripts:
+Create scripts to manage and update configuration files
+across multiple servers or environments to ensure consistency and scalability
 ### 7. Log Analysis Scripts
-
+Write scripts to parse and analyze log files for troubleshooting,
+performance monitoring, and security auditing purposes.
 ### 8. Configuration Scripts
-
+Create scripts to manage and update configuration files across multiple servers or 
+environments to ensure consistency and scalability.
 ### 9. Infrastructure as Code (IaC) Scripts
-
+Use Python scripts to define and provision infrastructure resources using tools like
+Terraform or AWS CloudFormation for consistency and scalability.
 ### 10. Back-up Scripts
-
-
+Write scripts to automate the backup of data, databases,
+and configurations, as well as scripts to restore them when needed.
