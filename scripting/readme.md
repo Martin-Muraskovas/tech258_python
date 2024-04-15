@@ -1,7 +1,7 @@
 # What is scripting
 Scripting is the process of create code to automate a specific task. Scripts are generally reusable.
 Scripts are typically a sequence of instructions that is interpreted and carried out by another program
-instead of directly by the CPU 
+instead of directly by the CPU.
 
 ## What are the packages in the standard Python library?
 Here are some examples of packages within the standard Python Library:
