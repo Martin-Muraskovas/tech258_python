@@ -24,7 +24,7 @@ They offer an incredible level of accessibility in a countless amount of ways. W
 * **S**tate
 * **T**ransfer<br>
 
-REST APIs are a style for developing application. They use a list of rules and constraints to interact with web services. REST APIs are ***Stateless***, this means that if a request is made, it needs to contain all of the information necessary to understand the request being made.
+REST APIs are a style for developing application. They use a list of rules and constraints to interact with web services. REST APIs are ***Stateless***, this means that if a request is made, it needs to contain all the information necessary to understand the request being made.
 ### What makes an API **REST**ful?
 To make an API **REST**ful, it must adhere to the REST API principles.<br>
 These principles are as follows:
