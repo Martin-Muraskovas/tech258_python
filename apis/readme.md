@@ -79,12 +79,11 @@ HTTPS is the secure version of HTTP. When this secure protocol is used, the data
 ## What is "statelessness"?
 Statelessness is a key principle in the HTTP protocol. It simplifies the job of the server by having it treat each request as a unique transaction. This is important because it means the server does not have to store any session data or any information about the client.
 ### Examples of Stateless HTTP requests:
-* HTTP GET requests: When a client sends a GET request to the server to retrieve a resource (like a webpage), it is considered stateless because each GET request is independent of any previous requests. The server processes the request based solely on the information contained in that specific request.<br>
-<br>
+* HTTP GET requests: When a client sends a GET request to the server to retrieve a resource (like a webpage), it is considered stateless because each GET request is independent of any previous requests. The server processes the request based solely on the information contained in that specific request.
 * RESTful APIs: Representational State Transfer (REST) APIs are designed to be stateless. Each request to a RESTful API contains all the information needed for the server to fulfill the request, without relying on previous interactions.
+
 ### Examples of Stateful HTTP requests:
-* HTTP POST requests: Unlike GET requests, POST requests are often used for sending data to the server to create or update a resource. These requests can be stateful if they require the server to maintain some information about the client's session to process the request correctly. <br>
-<br>
+* HTTP POST requests: Unlike GET requests, POST requests are often used for sending data to the server to create or update a resource. These requests can be stateful if they require the server to maintain some information about the client's session to process the request correctly.
 * Session-based authentication: When a user logs into a website and maintains a session, subsequent requests that require authentication are considered stateful because they rely on the session information stored on the server.
 
 ## What is caching?
