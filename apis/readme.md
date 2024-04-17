@@ -50,7 +50,6 @@ HTTP stands for:<br>
 Hyper Text Transfer Protocol <br>
 HTTPS is the secure version of HTTP. When this secure protocol is used, the data that is transferred is encrypted.
 
-
 ## The HTTP request structure.
 ![HTTP request.png](HTTP%20request.png)
 * VERB - This is the HTTP request method. It is labeled as VERB because all the request methods are verbs. It is capitalised because these methods are all written in full capitals. Examples of request methods include: GET, POST, PUT, and DELETE.
